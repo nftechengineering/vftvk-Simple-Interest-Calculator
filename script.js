@@ -7,7 +7,7 @@ var years = document.getElementById("years").value;
 var interest = principal * years * rate /100;
 var year = new Date().getFullYear()+parseInt(years);
 
-document.getElementById("resultText").innerHTML="Submit success";
+document.getElementById("result").innerHTML="Submit success";
 }
 
 function updateRate() 

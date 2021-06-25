@@ -14,6 +14,11 @@ document.getElementById("result3").innerText="You will receive and amount of ";
 document.getElementById("gains").innerHTML=gains;
 document.getElementById("result4").innerText="in the year " + year; 
 
+console.log(principal);
+console.log(rate);
+console.log(interest);
+console.log(gains);
+
 
 
 }

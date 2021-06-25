@@ -10,7 +10,14 @@ h1{color:grey;font-family:verdana}
     padding-left: 20px;
     border: 2px solid red;
     border-radius: 25px;
-    align: center
+    align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 

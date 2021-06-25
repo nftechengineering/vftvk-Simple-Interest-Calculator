@@ -14,11 +14,11 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     var gains = parseInt(principal)+parseInt(interest);
 
-    document.getElementById("result1").innerText="If you deposit " + "<span class='highlight'>"+ principal+"</span>" + ",";
-    document.getElementById("result2").innerText="at an interest rate of " + "<span class='highlight'>"+rate+"</span>" +"%."; 
-    document.getElementById("result3").innerText="You will receive and amount of ";
+    document.getElementById("result1").innerHTML="If you deposit " + "<span class='highlight'>"+ principal+"</span>" + ",";
+    document.getElementById("result2").innerHTML="at an interest rate of " + "<span class='highlight'>"+rate+"</span>" +"%."; 
+    document.getElementById("result3").innerHTML="You will receive and amount of ";
     document.getElementById("gains").innerHTML="<span class='highlight'>"+ gains+ "</span>";
-    document.getElementById("result4").innerText="in the year " + "<span class='highlight'>"+year+"</span>"; 
+    document.getElementById("result4").innerHTML="in the year " + "<span class='highlight'>"+year+"</span>"; 
 
     //display data on console for counter checking
     console.log(principal);

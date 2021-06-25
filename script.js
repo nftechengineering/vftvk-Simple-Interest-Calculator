@@ -11,7 +11,7 @@ let gains = principal + principal * years * rate /100;
 document.getElementById("result1").innerText="If you deposit " + principal + ",";
 document.getElementById("result2").innerText="at an interest rate of " + rate +"%."; 
 document.getElementById("result3").innerText="You will receive and amount of ";
-document.getElementById("gains").innerHTML=gains;
+document.getElementById("gains").innerHTML=gains.value;
 document.getElementById("result4").innerText="in the year " + year; 
 
 console.log(principal);

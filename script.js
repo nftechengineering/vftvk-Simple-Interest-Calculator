@@ -15,7 +15,7 @@ function compute()
     var gains = parseInt(principal)+parseInt(interest);
 
     document.getElementById("result1").innerHTML="If you deposit " + "<span class='highlight'>"+ principal+"</span>" + ",";
-    document.getElementById("result2").innerHTML="at an interest rate of " + "<span class='highlight'>"+rate+"</span>" +"%."; 
+    document.getElementById("result2").innerHTML="at an interest rate of " + "<span class='highlight'>"+rate+"%"+"</span>"; 
     document.getElementById("result3").innerHTML="You will receive and amount of ";
     document.getElementById("gains").innerHTML="<span class='highlight'>"+ gains+ "</span>";
     document.getElementById("result4").innerHTML="in the year " + "<span class='highlight'>"+year+"</span>"; 

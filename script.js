@@ -6,7 +6,7 @@ var rate = document.getElementById("rate").value;
 var years = document.getElementById("years").value;
 var interest = principal * years * rate /100;
 var year = new Date().getFullYear()+parseInt(years);
-let gains = principal + principal * years * rate /100;
+var gains = parseInt(principal)+parseInt(interest);
 
 document.getElementById("result1").innerText="If you deposit " + principal + ",";
 document.getElementById("result2").innerText="at an interest rate of " + rate +"%."; 

@@ -18,7 +18,9 @@ console.log(principal);
 console.log(rate);
 console.log(interest);
 console.log(gains);
-console.log(typeof gains)
+console.log(typeof gains);
+console.log(typeof principal);
+console.log(typeof interest);
 
 
 }

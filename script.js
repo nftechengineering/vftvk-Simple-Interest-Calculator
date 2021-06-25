@@ -9,6 +9,8 @@ var year = new Date().getFullYear()+parseInt(years);
 
 document.getElementById("result").innerText="If you deposit " + principal;
 
+}
+
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;

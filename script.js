@@ -7,8 +7,7 @@ var years = document.getElementById("years").value;
 var interest = principal * years * rate /100;
 var year = new Date().getFullYear()+parseInt(years);
 
-document.getElementById("result").innerText="Submit success";
-}
+document.getElementById("result").innerText="If you deposit " principal;
 
 function updateRate() 
 {
